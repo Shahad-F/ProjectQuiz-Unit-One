@@ -1,0 +1,181 @@
+  body{
+      
+      /* background-image: url('https://startupbonsai.com/wp-content/uploads/2020/07/Best-Online-Quiz-Makers-Social.jpg'); */
+  }
+#parent{
+    
+    border:solid  rgba(36, 10, 88, 0.788);;
+    margin:10ch;
+    width:90%;
+    border-radius:8px;
+    background:rgb(233, 223, 205);
+
+}
+
+  #parent>div{
+     
+    background: rgba(138, 90, 233, 0.233);
+    border-radius:17px;
+    margin-left: 10ch;
+    margin-right: 10ch;
+    margin-bottom: 10ch;
+    padding-bottom: 7ch;
+}
+#parent>h1{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 400%;
+    color: rgb(86, 24, 145);
+    margin-bottom: 3ch;
+    margin-top: 1ch;
+}
+p{
+    text-align: right;
+    margin-right: 3ch;
+    padding-top: 3ch;
+    color:rgb(97, 17, 12);
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+.BTN{
+    border: solid rgb(23, 3, 44);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+button{
+     
+    -webkit-border-radius: 71px 73px 75px 75px;
+    -moz-border-radius: 71px 73px 75px 75px;
+    background: #15b9ba;
+     
+        
+     margin-left: 3ch;
+     position: relative;
+     left: 30%;
+    /* padding-left: 5ch; */
+    padding-right:15ch;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1ch 2ch;
+    
+    color:white;
+    font-family:monospace;
+    font-size:x-large;
+
+}
+button:hover{
+    
+    background: #15b9ba;
+    
+    background:rgba(145, 223, 223, 0.541);
+    color:rgb(240, 47, 47) ;
+    font-size: x-large;
+    font-weight: bold;
+     
+}
+
+.BTNok{
+    margin-top:5ch;
+     
+    /* -webkit-border-radius: 73px 73px 75px 75px;
+    -moz-border-radius: 73px 73px 75px 75px; */
+     background: #15ba80;
+     /* border: 6px solid #059c2f;    */
+}
+.BTNok:hover{
+    
+    background-color: rgb(63, 207, 123);
+    color: black;
+     
+
+}
+#done{
+    background:rgb(70, 70, 218);
+    margin-left: 15%;
+    margin-bottom: 4ch;
+}
+#done:hover{
+    background-color: blanchedalmond;
+    font-weight: bold;
+}
+.meg{
+    color: rgb(165, 113, 34);
+    /* margin: 2ch; */
+    text-decoration: underline;
+    margin-left: 10%;
+    margin-bottom: 4ch;
+}
+@media screen and ( min-width: 768px ) and ( max-width: 1023px ) {
+
+
+    #parent{
+
+        margin: 5ch;
+
+    }
+    #parent>div{
+        width: 80%;
+         margin-left: 15%; 
+         margin-right: 15%;
+       
+
+    }
+    #done{
+        margin-left: 20ch;
+    }
+
+    button{
+        left: 0%;
+        right: 7%;
+        margin: 2ch;
+    }
+
+    .meg{
+        color: rgb(165, 113, 34);
+        margin: 2ch;
+        text-decoration: underline;
+        margin-left: 25%;
+        margin-bottom: 4ch;
+    }
+}
+
+
+@media screen and ( max-width: 767px ) {
+
+ #parent{
+        
+        margin: 4ch;
+
+    }
+    #parent>div{
+        width: 60%;
+        margin-left: 15%;
+        margin-right: 10%;
+        padding-left: 4ch;
+        padding-right: 4ch;
+      
+    }
+    p{
+        font-size: large;
+    }
+    button{
+        
+       padding: 1ch;
+        left: 10%;
+        margin: 1ch;
+    }
+    .meg{
+        color: rgb(165, 113, 34);
+        margin: 2ch;
+        text-decoration: underline;
+        margin-left: 5%;
+        margin-bottom: 4ch;
+    }
+    #done{
+        margin-left: 13ch;
+    }
+}
